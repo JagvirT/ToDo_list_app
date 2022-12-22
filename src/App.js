@@ -54,8 +54,8 @@ export default class App extends Component{
     const style3 = {
         display: 'block',
         margin : '0 auto',
-        backgroundColor :'#3123',
-        color: '#949',
+        backgroundColor :'blue',
+        color: 'yellow',
         width: '120px',
         height: '29px',
         borderRadius: "4px",

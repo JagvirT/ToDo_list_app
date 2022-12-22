@@ -14,15 +14,15 @@ export default class List extends React.Component{
             marginTop:'-200px',
             display: 'block',
             margin : '0 auto',
-            backgroundColor :'#3123',
-            color: '#949',
+            backgroundColor :'blue',
             width: '50vh',
             height: '29px',
             borderRadius: "4px",
             fontSize: '15px',
             fontWieght: 'bold',
             cursor: 'pointer',
-            fontFamily: 'Apple Chancery'
+            fontFamily: 'Apple Chancery',
+            color: 'yellow'
         }
         return (
             <div>
