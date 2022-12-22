@@ -74,6 +74,11 @@ export default class App extends Component{
       marginLeft:'300px'
     }
 
+    const listText= {
+      color:'blue', 
+      fontSize: '32px'
+    }
+
     return(
       <div>
         <form>
@@ -81,7 +86,7 @@ export default class App extends Component{
           <input type='text' placeholder = "Enter Task" value= {this.state.toAdd} onChange= {this.onAddChange} style= {style2}/>
             <button onClick={this.onList} style ={style3}> Add to List</button>
           <div style = {listStyle}>  
-            <ol>  
+            <ol style= {listText}>  
               {this.state.tasks.map((task,index) => (
               <li key = {index}>{task}</li>))}
             </ol>
